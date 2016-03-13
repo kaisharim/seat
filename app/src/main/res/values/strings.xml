@@ -13,7 +13,7 @@
 
     <string name="titulo_tab_perfil">MI COCHE</string>
     <string name="titulo_tab_direcciones">DIRECCIONES</string>
-    <string name="titulo_tab_tarjetas">TARJETAS</string>
+    <string name="titulo_tab_tarjetas">USUARIOS</string>
 
     <string name="texto_no_tarjetas">No tienes ninguna tarjeta asociada</string>
 
