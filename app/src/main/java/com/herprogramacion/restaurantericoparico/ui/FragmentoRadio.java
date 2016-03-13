@@ -39,7 +39,7 @@ public class FragmentoRadio extends Fragment {
 
         reciclador = (RecyclerView) view.findViewById(R.id.reciclador);
         layoutManager = new LinearLayoutManager(getActivity());
-        reciclador.setLayoutManager(layoutManager);
+        //reciclador.setLayoutManager(layoutManager);
 
         FloatingActionButton fab = (FloatingActionButton) view.findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
