@@ -59,7 +59,6 @@ public class FragmentoCuenta extends Fragment {
     private void poblarViewPager(ViewPager viewPager) {
         AdaptadorSecciones adapter = new AdaptadorSecciones(getFragmentManager());
         adapter.addFragment(new FragmentoPerfil(), getString(R.string.titulo_tab_perfil));
-        adapter.addFragment(new FragmentoDirecciones(), getString(R.string.titulo_tab_direcciones));
         adapter.addFragment(new FragmentoTarjetas(), getString(R.string.titulo_tab_tarjetas));
         viewPager.setAdapter(adapter);
     }
@@ -101,5 +100,15 @@ public class FragmentoCuenta extends Fragment {
         public CharSequence getPageTitle(int position) {
             return titulosFragmentos.get(position);
         }
+    }
+
+    void startRadio(View v){
+        Fragment fragmentoGenerico2 = new FragmentoRadio();
+        FragmentManager fragmentManager2 = getActivity().getSupportFragmentManager();
+        // fragmentoGenerico.setArguments(b);
+        fragmentManager2
+                .beginTransaction()
+                .replace(R.id.contenedor_principal, fragmentoGenerico2)
+                .commit();
     }
 }

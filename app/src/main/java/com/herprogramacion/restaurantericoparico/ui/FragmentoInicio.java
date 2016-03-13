@@ -16,7 +16,6 @@ import com.herprogramacion.restaurantericoparico.R;
 public class FragmentoInicio extends Fragment {
     private RecyclerView reciclador;
     private LinearLayoutManager layoutManager;
-    private AdaptadorInicio adaptador;
 
     public FragmentoInicio() {
     }
@@ -30,8 +29,7 @@ public class FragmentoInicio extends Fragment {
         layoutManager = new LinearLayoutManager(getActivity());
         reciclador.setLayoutManager(layoutManager);
 
-        adaptador = new AdaptadorInicio();
-        reciclador.setAdapter(adaptador);
+
         return view;
     }
 
