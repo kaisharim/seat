@@ -33,5 +33,6 @@ public class Radio extends Peticion{
 
     public Double getFrecuencia() {
         return frecuencia;
+        //knlk
     }
 }
