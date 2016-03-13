@@ -95,6 +95,9 @@ public class ActividadPrincipal extends AppCompatActivity {
             case android.R.id.home:
                 drawerLayout.openDrawer(GravityCompat.START);
                 return true;
+            case R.id.send:
+
+                return true;
         }
         return super.onOptionsItemSelected(item);
     }

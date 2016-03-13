@@ -3,7 +3,7 @@
 
     <string name="action_settings">Configuración</string>
     <string name="action_search">Buscar</string>
-    <string name="action_carrito">Añadir al carrito</string>
+    <string name="action_carrito">Enviar al coche</string>
 
     <string name="item_inicio">Inicio</string>
     <string name="item_cuenta">Mi Cuenta</string>
